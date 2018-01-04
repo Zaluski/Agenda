@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Entities\Pessoa;
+
 class IndexController extends Controller {
 
 
-    public function index()
+    public function index($letra = "A")
     {
-        return view('layout');
+        $pessoas = Pessoa::where('apelido','like',$letra.'%')->get();
+        return view('agenda',compact('pessoas'));
     }
 
 

@@ -1,0 +1,22 @@
+{
+  "name": "Agenda",
+  "description": "Agenda Telefonica",
+  "main": "",
+  "authors": [
+    "Rafael Zaluski <rzaluski@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Zaluski/Agenda",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#4.4.0",
+    "bootstrap": "3.3.5"
+  }
+}

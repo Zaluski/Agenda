@@ -16,3 +16,5 @@
 //});
 
 $app->get('/',['as'=>'agenda.index','uses'=> 'Indexcontroller@index']);
+
+$app->get('/{letra}',['as'=>'agenda.letra','uses'=> 'Indexcontroller@index']);
